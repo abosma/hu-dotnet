@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Practicum1DotNetEngine;
 
 namespace Practicum1DotNet
 {
@@ -14,9 +15,9 @@ namespace Practicum1DotNet
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            TicTacToeEngine t = new TicTacToeEngine();
+
+            Console.WriteLine(t.Board());
         }
     }
 }
