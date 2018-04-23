@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TicTacToeEngine\Practicum1DotNetEngine.csproj">
+    <ProjectReference Include="..\TicTacToeEngine\Practicum1DotNetEngine.csproj">
       <Project>{c51d4c2f-dccd-4fd5-90fd-7b0ac22c39bc}</Project>
       <Name>Practicum1DotNetEngine</Name>
     </ProjectReference>
